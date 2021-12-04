@@ -1,5 +1,11 @@
 <?php
-// config for Wulfheart/ClassName
 return [
-
+    "includes" => [
+        base_path(),
+    ],
+    "excludes" => [
+        "vendor",
+        "tests",
+        "storage",
+    ],
 ];
