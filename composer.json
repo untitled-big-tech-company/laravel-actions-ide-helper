@@ -1,17 +1,23 @@
 {
-    "name": "wulfheart/laravel-actions-ide-helper",
+    "name": "untitled-big-tech-company/laravel-actions-ide-helper",
     "description": "Generate a new IDE Helper file for Laravel Actions.",
     "keywords": [
+        "Untitled big tech company",
         "Wulfheart",
         "laravel",
         "laravel-actions-ide-helper"
     ],
-    "homepage": "https://github.com/wulfheart/laravel-actions-ide-helper",
+    "homepage": "https://github.com/untitled-big-tech-company/laravel-actions-ide-helper",
     "license": "MIT",
     "authors": [
         {
             "name": "Alexander Wulf",
             "email": "dev@alexfwulf.de",
+            "role": "Developer"
+        },
+        {
+            "name": "Pham Ba Trung Thanh",
+            "email": "phambatrungthanh@gmail.com",
             "role": "Developer"
         }
     ],
@@ -40,8 +46,7 @@
             "Wulfheart\\LaravelActionsIdeHelper\\Tests\\": "tests"
         }
     },
-    "scripts": {
-    },
+    "scripts": {},
     "config": {
         "sort-packages": true
     },
