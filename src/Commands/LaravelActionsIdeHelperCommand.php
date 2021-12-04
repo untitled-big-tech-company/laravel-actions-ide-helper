@@ -33,6 +33,8 @@ class LaravelActionsIdeHelperCommand extends Command
         $finder = Finder::create()
             ->files()
             ->in(app_path())
+            ->in(config("actions-ide-helper.includes"))
+            ->exclude(config("actions-ide-helper.excludes"))
             ->name('*.php');
 
         $map = collect(ClassMapGenerator::createMap($finder->getIterator()));
